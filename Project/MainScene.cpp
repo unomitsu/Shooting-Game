@@ -61,7 +61,6 @@ void MainScene::Draw() {
 	DrawFormatString(GetWidth()/2 - 40, 0, GetColor(255, 255, 255), "Time : %d", GetStageTime());	// 経過時間の描画
 	DrawFormatString(0, 0, GetColor(255, 255, 255), "Player : %d", player->hp_now);					// プレイヤーHP
 	DrawFormatString(GetWidth() - 120, 0, GetColor(255, 255, 255), "Enemy : %d", enemy->hp_now);	// エネミーHP
-	DrawFormatString(200, 200, GetColor(255, 255, 255), "shotnum : %d", enemy_shot.size());	// エネミーHP
 }
 
 // 

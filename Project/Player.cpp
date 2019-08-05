@@ -9,7 +9,7 @@ Player::Player() {
 	x = y = 200.0;			// 座標の初期化
 	v = 4;					// 速度の初期化
 	flag = true;			// 有効フラグを立てる
-	hp_now = hp_max = 300000;	// 体力の初期化
+	hp_now = hp_max = 3;	// 体力の初期化
 	this->SetImage();		// 画像関連の設定
 	this->SetShot();		// プレイヤーショット関連の設定
 }
